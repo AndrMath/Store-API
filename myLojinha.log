@@ -1,0 +1,20 @@
+2022-11-20T21:52:16.843Z [lojinha] error : POST -  - Insira todas as informações
+2022-11-20T21:53:54.932Z [lojinha] info : Post /new - {"name":"oi","cpf":123456,"phone":125486,"email":"efasdf","address":"asdf"}
+2022-11-20T21:55:31.259Z [lojinha] info : Post /new - {"name":"oi","cpf":123456,"phone":125486,"email":"efasdf","address":"asdf"}
+2022-11-21T19:39:32.823Z [lojinha] info : GET / - function stringify() { [native code] }
+2022-11-21T19:40:41.466Z [lojinha] info : GET / - clients
+2022-11-21T19:42:38.703Z [lojinha] info : GET / - clients
+2022-11-21T19:44:03.203Z [lojinha] info : GET / - clients
+2022-11-21T19:44:27.513Z [lojinha] info : GET / - clients
+2022-11-21T19:47:05.078Z [lojinha] info : GET / - clients
+2022-11-21T19:49:05.671Z [lojinha] info : GET / - clients
+2022-11-21T20:27:41.672Z [lojinha] info : GET /:id - 2
+2022-11-21T20:38:34.232Z [lojinha] info : GET / - clients
+2022-11-21T20:39:15.816Z [lojinha] info : DELETE /:id - 2
+2022-11-21T20:39:45.431Z [lojinha] info : GET / - clients
+2022-11-21T20:39:49.677Z [lojinha] info : DELETE /:id - 3
+2022-11-21T20:39:56.627Z [lojinha] info : GET / - clients
+2022-11-21T20:40:00.102Z [lojinha] info : Post /new - {"name":"oi","cpf":123456,"phone":125486,"email":"efasdf","address":"asdf"}
+2022-11-21T21:12:32.639Z [lojinha] info : GET / - clients
+2022-11-21T21:12:39.291Z [lojinha] info : GET / - clients
+2022-11-21T21:14:51.608Z [lojinha] info : PUT /clients - 4
