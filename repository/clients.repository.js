@@ -62,15 +62,5 @@ async function updateClient(client, id){
     con.release()
   }
 }
-  
-
-/*const con = await connect()
-  try{
-
-  }catch(err){
-    throw err
-  }finally{
-    con.release()
-  }*/
 
 export {insertClient, getClients, getClient, deleteClient, updateClient}

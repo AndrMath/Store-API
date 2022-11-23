@@ -18,3 +18,35 @@
 2022-11-21T21:12:32.639Z [lojinha] info : GET / - clients
 2022-11-21T21:12:39.291Z [lojinha] info : GET / - clients
 2022-11-21T21:14:51.608Z [lojinha] info : PUT /clients - 4
+2022-11-23T19:42:17.450Z [lojinha] info : Post /clients - {"name":"Pantho","cpf":12345678955,"phone":123456789,"email":"usagui@gaymail.com","address":"Cachamorra"}
+2022-11-23T19:43:54.669Z [lojinha] info : Post /suppliers - {"name":"Pantho","cnpj":12345678955,"phone":123456789,"email":"usagui@gaymail.com","address":"Cachamorra"}
+2022-11-23T19:44:23.061Z [lojinha] info : GET / - suppliers
+2022-11-23T19:44:47.803Z [lojinha] info : Post /suppliers - {"name":"Hegon","cnpj":948156488955,"phone":16545329,"email":"usagui@gaymail.com","address":"Cachamorra"}
+2022-11-23T19:44:50.376Z [lojinha] info : GET / - suppliers
+2022-11-23T19:45:13.092Z [lojinha] info : GET /clients - 2
+2022-11-23T19:45:21.937Z [lojinha] info : GET /suppliers - 2
+2022-11-23T19:45:41.955Z [lojinha] info : DELETE /suppliers - 2
+2022-11-23T19:45:46.963Z [lojinha] info : GET / - suppliers
+2022-11-23T19:46:40.373Z [lojinha] info : PUT /suppliers - 1
+2022-11-23T21:10:19.618Z [lojinha] info : GET / - products
+2022-11-23T21:10:19.637Z [lojinha] error : GET -  - getProducts is not defined
+2022-11-23T21:11:50.749Z [lojinha] info : GET / - products
+2022-11-23T21:12:07.836Z [lojinha] info : GET /products - 1
+2022-11-23T21:15:12.542Z [lojinha] info : Post /products - {"name":"Requeijão","description":"Cremoso, saboroso, requeijão vigor","value":200,"stock":20,"supplier_id":1}
+2022-11-23T21:15:18.126Z [lojinha] info : GET / - products
+2022-11-23T21:18:56.836Z [lojinha] info : Post /products - {"name":"Requeijão","description":"Cremoso, saboroso, requeijão vigor","value":200,"stock":20,"supplier_id":3}
+2022-11-23T21:18:56.951Z [lojinha] error : POST -  - insert or update on table "products" violates foreign key constraint "fk_suppliers"
+2022-11-23T21:19:01.349Z [lojinha] info : GET / - products
+2022-11-23T21:27:31.379Z [lojinha] info : Post /products - {"name":"Requeijão","description":"Cremoso, saboroso, requeijão vigor","value":200,"stock":20,"supplier_id":3}
+2022-11-23T21:27:31.596Z [lojinha] error : POST -  - Supplier não encontrado
+2022-11-23T21:28:05.330Z [lojinha] info : Post /products - {"name":"Cookie","description":"Crocante, Chocolate, cookie do bão","value":200,"stock":15,"supplier_id":1}
+2022-11-23T22:25:46.192Z [lojinha] info : GET / - sales
+2022-11-23T22:25:48.224Z [lojinha] info : GET /sales - 1
+2022-11-23T22:27:48.897Z [lojinha] info : GET / - clients
+2022-11-23T22:29:12.163Z [lojinha] info : GET / - sales
+2022-11-23T22:29:37.369Z [lojinha] info : Post /sales - {"value":4520,"date":"01/12/2022","client_id":1,"product_id":1}
+2022-11-23T22:30:10.885Z [lojinha] info : GET / - sales
+2022-11-23T22:35:36.932Z [lojinha] info : GET /sales - 1
+2022-11-23T22:47:54.907Z [lojinha] info : PUT /sales - 1
+2022-11-23T22:47:54.911Z [lojinha] error : PUT -  - product is not defined
+2022-11-23T22:48:45.810Z [lojinha] info : PUT /sales - 1

@@ -62,15 +62,5 @@ async function updateSupplier(supplier, id){
     con.release()
   }
 }
-  
 
-/*const con = await connect()
-  try{
-
-  }catch(err){
-    throw err
-  }finally{
-    con.release()
-  }*/
-
-  export {insertSupplier, getSuppliers, getSupplier, deleteSupplier, updateSupplier}
+  export default {insertSupplier, getSuppliers, getSupplier, deleteSupplier, updateSupplier}
